@@ -6,5 +6,5 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse('<h4>Я поддерживаю я</h4>')
 
-def about():
+def about(request):
     return HttpResponse('<h4>Я есть в репозиториях, а ты?</h4>')
