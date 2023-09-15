@@ -54,7 +54,7 @@ ROOT_URLCONF = 'web_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['C:/Users/tvkom/PycharmProjects/django_project/web_project/main'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
