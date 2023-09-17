@@ -121,7 +121,7 @@ STATIC_URL = 'static/'
 
 
 STATICFILES_DIRS = [
-    BASE_DIR / "static"
+     "C:/Users/tvkom/PycharmProjects/django_project/web_project/main/static"
 ]
 
 
