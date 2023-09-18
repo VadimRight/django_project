@@ -29,16 +29,52 @@ aside h3 {
     margin-top: 50px;
     font-size: 30px;
 }
-
-aside ul li {
+aside ul * {list-style: none}
+aside li * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    vertical-align: baseline;
+    list-style: none;
+    line-height: 1;
+}
+li a {
     color: #fff;
-    display: block;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
     margin-top: 30px;
-    transition: all .6s ease;
+    transition: all 0.3s ease;
 }
 
-aside ul li: hover, aside ul li a:hover{
-    color: eb5959;
+li i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+li a {
+    color: #fff;
     text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+li:hover {
     transform: scale(1.05);
 }
+
+li:hover i {
+    color: purple;
+    }
+
+li:hover a {
+    color: purple;
+}
+
+
