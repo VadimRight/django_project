@@ -70,12 +70,32 @@ li:hover {
 }
 
 li:hover i {
-    color: purple;
+    color: #FFB30D;
     transform: scale(1.2);
     }
 
 li:hover a {
-    color: purple;
+    color: #FFB30D;
+}
+main .features {
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 75%;
 }
 
+main .features h1 {font-size: 50px;}
+main .features p {max-width: 400px; margin: 20px auto}
+
+.btn-#FFB30D {
+    background-color: #FFB30D;
+    color: white;
+    border-color: #FFB30D;
+}
+
+.btn-#FFB30D:hover {
+    background-color: darkpurple;
+    border-color: darkpurple;
+}
 
