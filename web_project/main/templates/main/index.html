@@ -4,19 +4,6 @@
 
 {% block content %}
     <div class ="features">
-        <h1>{{ title }}</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus autem dolores facilis maxime modi nihil nisi numquam obcaecati officiis repudiandae.</p>
-        <button class="btn btn-warning">На страницу про меня</button>
-
-        {% for val in values %}
-            {% if val == 'Hello' %}
-                    <p>{{val|upper }}</p>
-            {%endif%}
-        {% endfor %}
-
-        {% for val in character %}
-        <p>{{val}}</p>
-        {% endfor %}
-
+        <h1>Обо мне</h1>
     </div>
 {% endblock %}
