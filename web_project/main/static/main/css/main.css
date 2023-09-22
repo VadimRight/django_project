@@ -99,3 +99,15 @@ main .features p {max-width: 400px; margin: 20px auto}
     border-color: darkpurple;
 }
 
+.alert-warning {
+    float: left;
+    width: calc(33.33% - 20px); /* Распределение ячеек по горизонтали на 3 колонки */
+    margin: 20px 10px; /* Внешний отступ для разделения элементов */
+    text-align: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

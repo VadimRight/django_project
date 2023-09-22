@@ -1,11 +1,10 @@
 from django.shortcuts import render
-
-# Create your views here.
 from django.shortcuts import render
 from django.http import HttpResponse
-# Create your views here.
+from .models import Articles
 
 
 def soft_skills(request):
-    return render(request, 'soft_skills/soft_skills.html')
+    soft_skills = Articles.objects.all()
+    return render(request, 'soft_skills/soft_skills.html', {'soft_skills': soft_skills})
 
