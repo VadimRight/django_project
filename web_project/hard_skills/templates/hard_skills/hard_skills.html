@@ -1,0 +1,19 @@
+{% extends 'main/layout.html'%}
+
+{% block title %}Soft-Skills{% endblock %}
+
+{% block content %}
+    <div class ="features">
+        <h1>Hard-Skills</h1>
+        {% if hard_skills %}
+            {% for el in hard_skills %}
+                <div class ="alert alert-warning">
+                    <h3>{{ el.title }}</h3>
+                    <p>{{ el.description }}</p>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>У вас нет записей!</p>
+        {% endif %}
+    </div>
+{% endblock %}

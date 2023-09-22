@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'main',
     'soft_skills',
+    'hard_skills',
 ]
 
 MIDDLEWARE = [
