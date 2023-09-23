@@ -128,16 +128,37 @@ main img{
 .education-box {
     color: white;
     float: left;
+    margin-left: -100px;
     margin-top: 100px;
 }
 
 .education-box h2 {
-    margin: 0; /* Убирает отступы вокруг заголовка */
+    margin: 0;
 }
 
 .education-box ul {
     list-style: none;
     color: white;
-    padding: 0; /* Убирает внутренний отступ у списка */
-    margin: 0; /* Убирает внешний отступ у списка */
+    padding: 0;
+    margin: 0;
+}
+.mine_character-box {
+    color: white;
+    float: left;
+    margin-left: -460px;
+    margin-top: 300px;
+}
+
+}
+.mine_character-box h2 {
+    margin: 0;
+ }
+
+.mine_character-box ul {
+    list-style: none;
+    color: white;
+    padding: 0;
+    margin: 10px;
+    float: right;
+    margin-left: 30px;
 }
