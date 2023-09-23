@@ -130,7 +130,14 @@ main img{
     float: left;
     margin-top: 100px;
 }
+
+.education-box h2 {
+    margin: 0; /* Убирает отступы вокруг заголовка */
+}
+
 .education-box ul {
     list-style: none;
     color: white;
+    padding: 0; /* Убирает внутренний отступ у списка */
+    margin: 0; /* Убирает внешний отступ у списка */
 }
