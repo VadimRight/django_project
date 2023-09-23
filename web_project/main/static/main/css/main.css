@@ -40,11 +40,11 @@ aside li * {
     list-style: none;
     line-height: 1;
 }
-li a {
+aside li a {
     color: #fff;
     text-decoration: none;
 }
-li {
+aside li {
     list-style: none;
     display: flex;
     align-items: center;
@@ -52,29 +52,29 @@ li {
     transition: transform 0.3s ease;
 }
 
-li i {
+aside li i {
     font-size: 24px;
     margin-right: 10px;
     color: #fff;
     transition: transform 0.3s ease;
 }
 
-li a {
+aside li a {
     color: #fff;
     text-decoration: none;
     transition: transform 0.3s ease;
 }
 
-li:hover {
+aside li:hover {
     transform: scale(1.05);
 }
 
-li:hover i {
+aside li:hover i {
     color: #FFB30D;
     transform: scale(1.2);
     }
 
-li:hover a {
+aside li:hover a {
     color: #FFB30D;
 }
 main .features {
@@ -104,10 +104,35 @@ main .features p {max-width: 400px; margin: 20px auto}
     width: calc(33.33% - 20px); /* Распределение ячеек по горизонтали на 3 колонки */
     margin: 20px 10px; /* Внешний отступ для разделения элементов */
     text-align: left;
+    /* Другие стили по вашему усмотрению */
 }
 
+/* Очистка для разделения элементов на новую строку */
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
+}
+
+main img{
+    width: 300px;
+    float: right;
+    margin: 20px 20px;
+}
+.about-box {
+    color: white;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+}
+.education-box {
+    color: white;
+    float: left;
+    margin-top: 100px;
+}
+.education-box ul {
+    list-style: none;
+    color: white;
+
 }
